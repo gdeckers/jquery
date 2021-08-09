@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Tipo Apple</title>
+    <style>
+        body {margin:0;}
+        #obj {
+            width: 150px;
+            height: 150px;
+            background-color: #000;
+            position: absolute;
+            cursor: move;
+        }
+        #res {
+            width: 150px;
+            font-size: 40px;
+            text-align: center;
+        }
+        .menu {
+            width: 800px;
+            height: 70px;
+            background-color: #ddd;
+            position: fixed;
+            bottom: 0;
+            left: 50%;
+            margin-left: -400px;
+        }
+        .icon {
+            width: 70px;
+            height: 70px;
+            background-color: #ccc;
+            float: left;
+            margin-right: 10px;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="obj">
+
+    </div>
+
+
+
+    <br><br>
+    <input type="text" id="location">
+    <button>Pesquisar</button>
+
+    <div id="res">0 °C</div>
+
+    
+
+
+
+
+    <div class="menu">
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+        <div class="icon"></div>
+    </div>
+    
+
+
+
+
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/jquery.mask.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
